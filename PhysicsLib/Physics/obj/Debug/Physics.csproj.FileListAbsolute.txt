@@ -1,0 +1,8 @@
+C:\Users\Administrador\Desktop\Physics\PhysicsLib\Physics\bin\Debug\Physics.dll.config
+C:\Users\Administrador\Desktop\Physics\PhysicsLib\Physics\bin\Debug\Physics.dll
+C:\Users\Administrador\Desktop\Physics\PhysicsLib\Physics\bin\Debug\Physics.pdb
+C:\Users\Administrador\Desktop\Physics\PhysicsLib\Physics\obj\Debug\Physics.csprojAssemblyReference.cache
+C:\Users\Administrador\Desktop\Physics\PhysicsLib\Physics\obj\Debug\Physics.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\Physics\PhysicsLib\Physics\obj\Debug\Physics.csproj.CopyComplete
+C:\Users\Administrador\Desktop\Physics\PhysicsLib\Physics\obj\Debug\Physics.dll
+C:\Users\Administrador\Desktop\Physics\PhysicsLib\Physics\obj\Debug\Physics.pdb

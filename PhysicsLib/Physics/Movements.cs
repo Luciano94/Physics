@@ -31,10 +31,14 @@ namespace Physics
         /// <param name="speed">Speed of the object</param>
         /// <param name="acceleration">Acceleration of the object</param>
         /// <returns></returns>
-        public static float CalculateMRUV(float pos,ref float speed, float acceleration)
+        public static Vector3 CalculateMRUV(Vector3 pos,ref float speed, float acceleration, Vector3 dir)
         {
-            pos += speed * Time.deltaTime + 0.5f * acceleration * (float)Math.Pow(Time.deltaTime, 2);
-            speed -= acceleration;
+            dir *= speed * Time.deltaTime + 0.5f * acceleration * (float)Math.Pow(Time.deltaTime, 2);
+            pos += dir;
+            if (acceleration > 0)
+                speed += acceleration;
+            else
+                speed -= acceleration;
             return pos;
         }
 
