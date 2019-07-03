@@ -31,14 +31,10 @@ namespace Physics
         /// <param name="speed">Speed of the object</param>
         /// <param name="acceleration">Acceleration of the object</param>
         /// <returns></returns>
-        public static Vector3 CalculateMRUV(Vector3 pos,ref float speed, float acceleration, Vector3 dir)
+        public static float CalculateMRUV(float pos,ref float speed, float acceleration)
         {
-            dir *= speed * Time.deltaTime + 0.5f * acceleration * (float)Math.Pow(Time.deltaTime, 2);
-            pos += dir;
-            if (acceleration > 0)
-                speed += acceleration;
-            else
-                speed -= acceleration;
+            pos += speed * Time.deltaTime + 0.5f * acceleration * (float)Math.Pow(Time.deltaTime, 2);
+            speed -= acceleration;
             return pos;
         }
 
@@ -77,6 +73,17 @@ namespace Physics
             float angle = angleI - angleF;
             float time = timeI - timeF;
             return angle / time;
+        }
+
+        public static void ConstAccelCirc2D(float radius, float acceleration, ref float initialAngularSpeed, float minSpeed, float maxSpeed)
+        {
+            float currentAngularSpeed = 0f;
+
+            currentAngularSpeed = acceleration * Time.deltaTime + initialAngularSpeed;
+
+            currentAngularSpeed = Mathf.Clamp(currentAngularSpeed, minSpeed, maxSpeed);
+
+            initialAngularSpeed = currentAngularSpeed;
         }
     }
 }

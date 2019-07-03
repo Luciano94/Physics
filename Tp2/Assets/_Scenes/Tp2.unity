@@ -208,8 +208,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   angVelocity: 0
   speed: 0
-  maxSpeed: 2
-  maxAngVel: 2
+  maxSpeed: 1
+  maxAngVel: 10
 --- !u!114 &906607657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,8 +224,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   angVelocity: 0
   speed: 0
-  maxSpeed: 2
-  maxAngVel: 2
+  maxSpeed: 1
+  maxAngVel: 10
 --- !u!114 &906607658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,9 +240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftWheel: {fileID: 906607656}
   rightWheel: {fileID: 906607657}
-  actualSpeed: 0
-  acceleration: 1
-  friction: 0.8
+  speed: 100
   yLimit: 8
   xLimit: 8
 --- !u!1 &1512023935
