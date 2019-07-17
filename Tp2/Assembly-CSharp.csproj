@@ -64,6 +64,7 @@
      <Compile Include="Assets\Script\Player\Wheel.cs" />
      <Compile Include="Assets\Script\Road\Road.cs" />
      <Compile Include="Assets\Script\Road\RoadManager.cs" />
+     <Compile Include="Assets\Script\UIManager.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Luciano/Desktop/Fisica/Physics/Tp2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

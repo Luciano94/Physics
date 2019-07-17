@@ -24,11 +24,11 @@ private void Start() {
         {
             case (int)State.POSITIVE:
                 if (rightWheel.accel < rightWheel.maxAccel)
-                    rightWheel.accel += Time.deltaTime;
+                    rightWheel.accel += Time.deltaTime * acceleration;
                 break;
             case (int)State.NEGATIVE:
                 if (rightWheel.accel > -rightWheel.maxAccel)
-                    rightWheel.accel -= Time.deltaTime;
+                    rightWheel.accel -= Time.deltaTime * acceleration;
                 break;
             case (int)State.NULL:
                 if (rightWheel.accel != 0.0f)
