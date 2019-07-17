@@ -7,3 +7,12 @@ C:\Users\Administrador\Desktop\Physics-93bcc53eab4d406e0078aefc770c3b33bb991bb0\
 C:\Users\Administrador\Desktop\Physics-93bcc53eab4d406e0078aefc770c3b33bb991bb0\PhysicsLib\Physics\obj\Debug\Physics.csproj.CopyComplete
 C:\Users\Administrador\Desktop\Physics-93bcc53eab4d406e0078aefc770c3b33bb991bb0\PhysicsLib\Physics\obj\Debug\Physics.dll
 C:\Users\Administrador\Desktop\Physics-93bcc53eab4d406e0078aefc770c3b33bb991bb0\PhysicsLib\Physics\obj\Debug\Physics.pdb
+C:\Users\Luciano\Desktop\Fisica\Physics\PhysicsLib\Physics\bin\Debug\Physics.dll.config
+C:\Users\Luciano\Desktop\Fisica\Physics\PhysicsLib\Physics\bin\Debug\Physics.dll
+C:\Users\Luciano\Desktop\Fisica\Physics\PhysicsLib\Physics\bin\Debug\Physics.pdb
+C:\Users\Luciano\Desktop\Fisica\Physics\PhysicsLib\Physics\bin\Debug\UnityEngine.dll
+C:\Users\Luciano\Desktop\Fisica\Physics\PhysicsLib\Physics\obj\Debug\Physics.csprojAssemblyReference.cache
+C:\Users\Luciano\Desktop\Fisica\Physics\PhysicsLib\Physics\obj\Debug\Physics.csproj.CoreCompileInputs.cache
+C:\Users\Luciano\Desktop\Fisica\Physics\PhysicsLib\Physics\obj\Debug\Physics.csproj.CopyComplete
+C:\Users\Luciano\Desktop\Fisica\Physics\PhysicsLib\Physics\obj\Debug\Physics.dll
+C:\Users\Luciano\Desktop\Fisica\Physics\PhysicsLib\Physics\obj\Debug\Physics.pdb

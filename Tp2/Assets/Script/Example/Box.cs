@@ -4,6 +4,7 @@ using Physics;
 public class Box : MonoBehaviour
 {
     public Physics.Box box;
+    public int layer = 0; 
 
     private void Start()
     {
